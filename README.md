@@ -43,7 +43,10 @@ baed on OS: Linux, GPU: A100, python = 3.10
   python train.py 
 
 - move directory
-  cd ..  cd run
+  
+  cd ..
+
+  cd run
 
 - Inference trained model
   
