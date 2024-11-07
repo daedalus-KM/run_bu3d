@@ -1,4 +1,8 @@
 # run_bu3d
+-Running BU3D from "A Bayesian based deep unrolling algorithm for single-photon lidar systems", Jakeoung Koo, 2022
+
+- codes based on : https://github.com/jakeoung/BayesianUnrolling
+
 - How to run
 
 baed on OS: Linux, GPU: A100, python = 3.10 
