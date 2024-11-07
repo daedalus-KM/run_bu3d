@@ -50,4 +50,4 @@ baed on OS: Linux, GPU: A100, python = 3.10
 
 - Inference trained model
   
-  python test_middlebury1024
+  python test_middlebury1024.py
