@@ -72,7 +72,7 @@ class TofDataset(Dataset):
     def transform(self, a, b, c, d):
         if np.random.random() > 0.5:
             a = TF.vflip(a)
-            c = TF.vflip(c)
+            # c = TF.vflip(c)
 
             if self.userefl:
                 b = TF.vflip(b)
@@ -80,7 +80,7 @@ class TofDataset(Dataset):
 
         if np.random.random() > 0.5:
             a = TF.hflip(a)
-            c = TF.hflip(c)
+            # c = TF.hflip(c)
 
             if self.userefl:
                 b = TF.hflip(b)
